@@ -1,0 +1,38 @@
+.journey-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.background-image {
+    /* margin-top: 15%; */
+    z-index: -1;
+    position: absolute;
+    width: 80%;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.journey-top-text {
+    color: white;
+    font-size: xxx-large;
+    font-family: 'Product Sans', sans-serif;
+}
+
+.text {
+    width: 70%;
+    color: white;
+}
+
+.big-text {
+    font-size: xx-large;
+    font-family: 'Product Sans', sans-serif;
+
+}
+
+.small-text {
+    font-family: 'Product Sans', sans-serif;
+
+}

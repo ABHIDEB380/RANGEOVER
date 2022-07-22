@@ -1,0 +1,96 @@
+.store-card {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    font-family: 'Product Sans', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card1 {
+    width: 25%;
+    float: left;
+    align-items: flex-start;
+}
+
+.card2 {
+    width: 50%;
+    float: left;
+}
+
+.card3 {
+    width: 25%;
+    float: right;
+}
+
+.card-header {
+    display: flex;
+    width: 100%;
+}
+
+
+.card3-button {
+    background: #ffe604;
+    border: 1px solid black;
+    padding: 3px;
+    width: 30%;
+    margin-left: 37%;
+}
+
+/* css for filter card */
+
+label {
+    padding: 0%;
+}
+
+.filter {
+    font-family: 'Product Sans', sans-serif;
+}
+
+.store {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.filter-cost {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Product Sans', sans-serif;
+}
+
+.cost-price {
+    font-size: 12px;
+    font-family: 'Product Sans', sans-serif;
+}
+
+
+.radio {
+    border: 1px solid rgb(70, 67, 67);
+    padding: 0.4em;
+    -webkit-appearance: none;
+}
+
+.filter-color {
+    display: flex;
+}
+
+.color-div {
+    margin: 5px;
+    width: 10px;
+    height: 10px;
+}
+
+
+
+.shoes-item {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+img {
+    width: -webkit-fill-available;
+    padding: 0px;
+}
